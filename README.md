@@ -1,12 +1,17 @@
-Sprint 2 Entrega 2.3: Función Memoize
+ Sprint 2 Entrega 2.3 Función Memoize
 Configuración
-Para configurar el entorno de desarrollo, sigue estos pasos para instalar los módulos necesarios:
+Instalar los siguientes módulos en la terminal:
+
 npm init -y
 npm install typescript -D
 npm i -D ts-node
 npm i -D jest typescript ts-jest @types/jest
-tsc --init
+tsc -init
 Test
+
 npm test
+
 CLI
+
 npm run memoize
+ 
