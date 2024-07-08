@@ -1,0 +1,29 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Logs
+logs
+*.log
+
+# Jest coverage and test results
+coverage/
+*.test_results.json
+
+# Environment variables
+.env
+
+# IDE and editor settings
+.vscode/
+.idea/
+.DS_Store
+
+# NPM/Yarn lock files
+package-lock.json
+yarn.lock
+
