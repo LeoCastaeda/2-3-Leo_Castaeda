@@ -8,7 +8,7 @@ export default function memoize<T extends (...args: any[]) => any>(func: T): T {
       return cache.get(key)!;
     }
 
-    const result = func(...args);
+    const result = func( ...args);
     cache.set(key, result);
 
     return result;
