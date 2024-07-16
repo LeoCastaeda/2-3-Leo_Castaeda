@@ -11,7 +11,7 @@
       "strictNullChecks": true,
 
   },
-  "include": ["./src/**/*", "./tests/**/*"],
+  "include": ["./src/**/*", "./tests/**/*", "src/test/jest.config.ts"],
   "exclude": ["node_modules"] 
 }
 
