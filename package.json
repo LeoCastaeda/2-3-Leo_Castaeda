@@ -5,8 +5,8 @@
   "scripts": {
     "test": "jest",
     "build": "tsc",
-    "start": "node ./dist/app/memoizeCLI.js",
-    "memoize": "node ./dist/app/memoizeCLI.js"
+    "start": "node ./dist/app/fibonacciCLI.js",
+    "memoize": "node ./dist/app/fibonacciCLI.js"
   },
   "keywords": [],
   "author": "Leo Castaneda",
