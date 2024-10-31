@@ -1,19 +1,22 @@
- Sprint 2 Entrega 2.3 Función Memoize
+ # Sprint 2 
+ 
+ ## Entrega 2.3 Función Memoize
 
 
-Configuración
-Instalar los siguientes módulos en la terminal:
+## Configuración
 
-npm init -y
-npm install typescript -D
-npm i -D ts-node
-npm i -D jest typescript ts-jest @types/jest
-tsc -init
-Test
+1. Instalar los siguientes módulos en la terminal:
 
-npm test
+* npm init -y
+* npm install typescript -D
+* npm i -D ts-node
+* npm i -D jest typescript ts-jest @types/jest
+* tsc -init
+2. Test
 
-CLI
+* npm test
 
-npm run memoize
+3. CLI
+
+* npm start fibonacci <10>
  

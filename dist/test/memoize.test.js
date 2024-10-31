@@ -10,7 +10,6 @@ describe('memoize function', () => {
         const memoizedFunction = (0, memoize_1.default)(expensiveFunction);
         expect(memoizedFunction(2)).toBe(4);
         expect(expensiveFunction).toHaveBeenCalledTimes(1);
-        // Subsequent call with the same argument should return the memoized result
         expect(memoizedFunction(2)).toBe(4);
         expect(expensiveFunction).toHaveBeenCalledTimes(1);
     });

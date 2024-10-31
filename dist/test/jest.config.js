@@ -4,6 +4,8 @@ const config = {
     preset: 'ts-jest',
     testEnvironment: 'node',
     verbose: true,
-    // Otras configuraciones válidas de Jest según sea necesario
+    transform: {
+        '^.+\\.(ts|tsx)$': 'ts-jest',
+    },
 };
 exports.default = config;

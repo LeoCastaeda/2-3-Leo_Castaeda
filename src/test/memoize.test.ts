@@ -6,8 +6,7 @@ describe('memoize function', () => {
 
     expect(memoizedFunction(2)).toBe(4);
     expect(expensiveFunction).toHaveBeenCalledTimes(1);
-
-    // Subsequent call with the same argument should return the memoized result
+ 
     expect(memoizedFunction(2)).toBe(4);
     expect(expensiveFunction).toHaveBeenCalledTimes(1);
   });

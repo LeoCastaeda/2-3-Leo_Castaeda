@@ -4,6 +4,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
+    "build": "tsc",
+    "start": "node ./dist/app/memoizeCLI.js",
     "memoize": "node ./dist/app/memoizeCLI.js"
   },
   "keywords": [],
